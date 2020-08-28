@@ -4,3 +4,6 @@ This is the front-end source code of the Library Booking App. It was developed u
 
 Back-end source code link:
 https://github.com/KishwarMaheen/library-booking-app
+
+Project Demo:
+https://youtu.be/iK5vBgVU2B0
