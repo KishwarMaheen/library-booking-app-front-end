@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Library Booking App</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js">
+
+    </script>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Library Booking App</h1>
+      <h3>Welcome</h3>
+    </div>
+    <div class="content">
+      <h3 id="welcome"></h3>
+      <a href="books.html">Show Books</a><br>
+      <a href="bookings.html">View Current Bookings</a><br>
+      <a href="http://127.0.0.1:3000">Sign out</a>
+    </div>
+  </body>
+  <script type="text/javascript">
+    $('h3#welcome').html("Welcome " + localStorage.getItem("username") + "!");
+  </script>
+</html>
